@@ -2,7 +2,7 @@
 // Created by creator on 19-3-14.
 //
 
-#include "BaseApplication.h"
+#include "BaseApplication.hpp"
 
 //虚函数定义不需要写virtual
 //Parse command line, read configuration, initialize all sub modules

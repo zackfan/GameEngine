@@ -3,7 +3,7 @@
 //
 
 #include<iostream>
-#include "IApplication.h"
+#include "IApplication.hpp"
 
 using namespace std;
 using namespace My;
@@ -13,6 +13,8 @@ namespace My {
     extern IApplication* g_pApp;
 }
 
+//因为我们将不同平台的应用程序进行了抽象，所以我们的main函数不需要关心我们目前到底是工作在哪个平台。
+//我们只需要通过IApplication接口提供的方法进行调用就可以了
 int main(int argc, char** argv)
 {
     int ret;

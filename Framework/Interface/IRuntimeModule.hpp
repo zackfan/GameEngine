@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include "Interface.h"
+#include "Interface.hpp"
 
 namespace My {
     Interface IRuntimeModule    //抽象基类

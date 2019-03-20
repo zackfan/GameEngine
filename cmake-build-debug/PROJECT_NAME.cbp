@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PROJECT_NAME"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Framework\;CMake Files\Framework\Common\;CMake Files\Empty\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Common">
+				<Option output="/home/creator/GameEngine/cmake-build-debug/Framework/Common/libCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug/Framework/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/creator/GameEngine/Framework/Common"/>
+					<Add directory="/home/creator/GameEngine/Framework/Interface"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 Common"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Common/fast">
+				<Option output="/home/creator/GameEngine/cmake-build-debug/Framework/Common/libCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug/Framework/Common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/creator/GameEngine/Framework/Common"/>
+					<Add directory="/home/creator/GameEngine/Framework/Interface"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 Common/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Framework/Common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Empty">
+				<Option output="/home/creator/GameEngine/cmake-build-debug/Empty/Empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug/Empty"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/creator/GameEngine/Framework/Common"/>
+					<Add directory="/home/creator/GameEngine/Framework/Interface"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 Empty"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Empty/fast">
+				<Option output="/home/creator/GameEngine/cmake-build-debug/Empty/Empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/creator/GameEngine/cmake-build-debug/Empty"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/creator/GameEngine/Framework/Common"/>
+					<Add directory="/home/creator/GameEngine/Framework/Interface"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 Empty/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/creator/GameEngine/cmake-build-debug/Empty/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/creator/GameEngine/Empty/EmptyApplication.cpp">
+			<Option target="Empty"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/Common/BaseApplication.cpp">
+			<Option target="Common"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/Common/BaseApplication.hpp">
+			<Option target="Common"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/Common/GraphicsManager.cpp">
+			<Option target="Common"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/Common/GraphicsManager.hpp">
+			<Option target="Common"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/Common/main.cpp">
+			<Option target="Common"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Framework\"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Framework/Common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Framework\Common\"/>
+		</Unit>
+		<Unit filename="/home/creator/GameEngine/Empty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Empty\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

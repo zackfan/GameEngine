@@ -10,8 +10,8 @@
 
 #pragma once
 
-#include "Interface.h"
-#include "IRuntimeModule.h"
+#include "Interface.hpp"
+#include "IRuntimeModule.hpp"
 
 namespace My{
     Interface IApplication : implements IRuntimeModule
