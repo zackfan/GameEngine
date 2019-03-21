@@ -348,6 +348,7 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPara
             if(g_pSwapchain != nullptr)
             {
 				DiscardGraphicResources();
+				g_pSwapchain->ResizeBuffers(0, 0, 0, DXGI_FORMAT_UNKNOWN, DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH);
             }
             wasHandled = true;
         break;
