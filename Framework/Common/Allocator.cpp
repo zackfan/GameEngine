@@ -7,10 +7,17 @@
 #include <cstring>
 
 #ifndef ALIGN
-#define ALIGN(x,a)  (((x)+((a)-1))&~((a)-1))
+#define ALIGN(x, a)  (((x)+((a)-1))&~((a)-1))
 #endif
 
 using namespace My;
+
+My::Allocator::Allocator()
+        :m_pPageList(nullptr),m_pFreeList(nullptr),
+         m_szPageSize(0),m_szBlockSize(0),
+         m_szDataSize(0),m_szAlignmentSize(0),m_nBlockPerPage(0)
+{
+}
 
 My::Allocator::Allocator(size_t data_size, size_t page_size, size_t alignment)
         : m_pPageList(nullptr), m_pFreeList(nullptr)
@@ -23,6 +30,7 @@ My::Allocator::~Allocator()
     FreeAll();
 }
 
+//仅设置分配的一些参数，还未实际分配
 void My::Allocator::Reset(size_t data_size, size_t page_size, size_t alignment)
 {
     FreeAll();
@@ -70,7 +78,7 @@ void *My::Allocator::Allocate()
         BlockHeader *pBlock = pNewPage->Blocks();
 
         //link each block in the page
-        for (uint32_t i = 0; i < m_nBlockPerPage; ++i)
+        for (uint32_t i = 0; i < m_nBlockPerPage - 1; ++i)
         {
             pBlock->pNext = NextBlock(pBlock);
             pBlock = NextBlock(pBlock);
