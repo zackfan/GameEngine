@@ -6,10 +6,12 @@
 
 #include "IRuntimeModule.hpp"
 
-namespace My{
+namespace My
+{
     class GraphicsManager : implements IRuntimeModule
     {
     public:
-        virtual ~GraphicsManager(){};
+        virtual ~GraphicsManager()
+        {}
     };
 }

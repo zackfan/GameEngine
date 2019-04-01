@@ -7,6 +7,7 @@
 //另一个好处是我可以通过线程和Allocator之间绑定关系，迅速实现线程的本地堆
 //现阶段提供一个单层支持不同分配尺寸的，线程不安全的内存管理模块
 #pragma once
+
 #include "IRuntimeModule.hpp"
 #include "Allocator.hpp"
 #include <new>
@@ -31,7 +32,7 @@ namespace My
 
     public:
         virtual ~MemoryManager()
-        {};
+        {}
 
         virtual int Initialize();
 

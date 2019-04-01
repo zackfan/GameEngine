@@ -5,6 +5,8 @@
 #include "BaseApplication.hpp"
 
 namespace My{
-    BaseApplication g_App;
+    GfxConfiguration cfg=GfxConfiguration();
+    BaseApplication g_App(cfg);
+    //临时对象不能赋给引用
     IApplication* g_pApp = &g_App;
 }
